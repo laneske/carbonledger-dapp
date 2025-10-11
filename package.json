@@ -1,0 +1,15 @@
+{
+  "name": "carbonledger-dapp",
+  "version": "1.0.0",
+  "description": "Transparent carbon credit marketplace on Hedera",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "deploy:contracts": "cd contracts && npx hardhat run scripts/deploy.js --network testnet"
+  },
+  "keywords": ["hedera", "carbon", "nft", "blockchain", "sustainability"],
+  "author": "Francis Mwangi <githinjiann296@gmail.com>",
+  "license": "MIT"
+}
