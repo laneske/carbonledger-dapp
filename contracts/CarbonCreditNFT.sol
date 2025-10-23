@@ -85,7 +85,7 @@ contract CarbonCreditNFT is ERC721, Ownable {
             'data:application/json;utf8,',
             '{"name":"Carbon Credit #', toString(tokenId), '",',
             '"description":"Tokenized Carbon Credit representing ', toString(data.co2Tons), ' tons of CO2 reduction",',
-            '"image":"https://example.com/carbon-credit.png",',
+            '"image":"https://carbonledger.netlify.app/carbon-credit.png",',
             '"attributes":[',
             '{"trait_type":"Project Type","value":"', data.projectType, '"},',
             '{"trait_type":"Certification","value":"', data.certificationStandard, '"},',

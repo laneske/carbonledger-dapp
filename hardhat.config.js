@@ -9,6 +9,8 @@ module.exports = {
         enabled: true,
         runs: 200
       }
+      ,
+      viaIR: true
     }
   },
   networks: {
@@ -17,7 +19,7 @@ module.exports = {
       accounts: process.env.OPERATOR_PRIVATE_KEY ? [process.env.OPERATOR_PRIVATE_KEY] : [],
       chainId: 296,
       gas: 1000000,
-      gasPrice: 1000000000,
+      gasPrice: 530000000000,
     }
   },
   paths: {
