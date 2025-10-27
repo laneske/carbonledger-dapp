@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: carbonledger-backend
+    env: node
+    plan: free
+    branch: main
+    path: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: HEDERA_NETWORK
+        value: testnet
+      - key: MIRROR_NODE_URL
+        value: https://testnet.mirrornode.hedera.com
+      - key: PORT
+        value: "3001"
+    autoDeploy: true
