@@ -12,6 +12,4 @@ services:
         value: testnet
       - key: MIRROR_NODE_URL
         value: https://testnet.mirrornode.hedera.com
-      - key: PORT
-        value: "3001"
     autoDeploy: true
